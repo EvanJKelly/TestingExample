@@ -17,7 +17,7 @@ namespace TestingExample.Models.Tests
         [DataRow("test.txt   ")]
         [DataRow("   test.txt   ")]
         [DataRow("October2019.TXT")]
-        [DataRow("null.text")]
+       
         
         public void IstTextFile_ValidFileName_ReturnsTrue(string fileName)
         {
